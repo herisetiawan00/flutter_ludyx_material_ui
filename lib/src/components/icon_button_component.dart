@@ -27,7 +27,7 @@ class IconButtonComponent extends StatelessWidget implements BaseComponent {
       },
       icon: Icon((data['icon'] as Object?).toMaterialIcon()),
       onPressed: switch (callback) {
-        LuaFn fun => fun.call,
+        LudyxFn fun => fun.call,
         _ => null,
       },
     );

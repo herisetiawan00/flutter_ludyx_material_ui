@@ -119,10 +119,10 @@ packages:
     dependency: "direct main"
     description:
       name: flutter_ludyx
-      sha256: "5e723f86556018f285593e8b995b44b89b45ceb6ab4bdd9452764783cfe8691b"
+      sha256: c7c1071ff8cf1a766e25d94c9f16d2bc789e23853fd273efcdfc20b271d5fb79
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.1"
+    version: "0.0.2"
   flutter_ludyx_material_ui:
     dependency: "direct main"
     description:

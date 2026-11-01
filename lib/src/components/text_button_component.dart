@@ -22,7 +22,7 @@ class TextButtonComponent extends StatelessWidget implements BaseComponent {
         _ => null,
       },
       onPressed: switch (callback) {
-        LuaFn fun when !disabled => fun.call,
+        LudyxFn fun when !disabled => fun.call,
         _ => null,
       },
       child: Component.buildChild(data['child'])!,

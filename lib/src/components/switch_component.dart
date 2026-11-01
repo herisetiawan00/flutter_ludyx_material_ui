@@ -26,7 +26,7 @@ class SwitchComponent extends StatelessWidget implements BaseComponent {
         String color => color.toColor(),
         _ => null,
       },
-      onChanged: onChanged is LuaFn ? (val) => onChanged.call([val]) : null,
+      onChanged: onChanged is LudyxFn ? (val) => onChanged.call([val]) : null,
     );
   }
 }

@@ -1,7 +1,7 @@
 name: flutter_ludyx_material_ui
 description: "Ludyx JSON to material ui translator"
 version: 0.0.1
-homepage: herisetiawan.id
+homepage: "https://herisetiawan.id"
 repository: "https://github.com/herisetiawan00/flutter_ludyx_material_ui"
 
 
@@ -14,7 +14,7 @@ dependencies:
     sdk: flutter
 
   material_ui: ^1.9.0
-  flutter_ludyx: ^0.0.1
+  flutter_ludyx: ^0.0.2
 
 dev_dependencies:
   flutter_test:
